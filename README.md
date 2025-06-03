@@ -29,3 +29,16 @@ Encabezados secundarios. Se usan para dividir secciones dentro del contenido, en
 
 <p>
 Define un párrafo de texto. Se usa para describir a cada boxeador y también para el texto del pie de página.
+
+# Proyecto Web Simple
+
+## Estilos aplicados
+
+- Se ha añadido un archivo `styles.css` enlazado al HTML.
+- Cambia el fondo del cuerpo (`body`) a gris claro.
+- Títulos centrados y en color oscuro.
+
+## Funcionalidades añadidas
+
+- Un script en `script.js` que muestra un mensaje al cargar la página.
+- Un botón que, al hacer clic, cambia el color de fondo de la página.
