@@ -1,59 +1,52 @@
-git init (Inicializa un nuevo repositorio Git en la carpeta actual.) git add . (Agrega todos los archivos al área de preparación (staging).) git commit \-m "Mensaje"(Crea un commit con los cambios agregados y un mensaje.) git Branch \- M main (Cambia el nombre de la rama actual a "main".) git remote add origin… (Vincula el repositorio local con uno remoto.) git push \-u origin main (Sube los cambios a la rama "main" del repositorio remoto.)
+# 🥊 Proyecto Web Simple – Los 5 Mejores Boxeadores del Mundo
 
+Este proyecto es una página web sencilla desarrollada con **HTML**, **CSS** y **JavaScript**, que presenta una lista de los 5 mejores boxeadores actuales, e incluye estilos responsivos y una funcionalidad interactiva con JavaScript.
+
+---
+
+## 📁 Archivos del proyecto
+
+- `index.html`: estructura y contenido principal.
+- `styles.css`: estilos visuales y responsividad.
+- `script.js`: interacción y dinámica del sitio.
+
+---
+
+## 🧱 Estructura del Código
+
+### HTML (`index.html`)
+
+```html
 <!DOCTYPE html>
-Declara que el documento está escrito en HTML5. Es obligatorio al inicio de todo archivo HTML.
-
 <html lang="es">
-Etiqueta raíz del documento HTML. El atributo lang="es" indica que el idioma principal del contenido es español.
-
 <head>
-Sección que contiene información del documento que no se muestra directamente en la página (como metadatos y enlaces a estilos o scripts).
-
-<meta charset="UTF-8">
-Define la codificación de caracteres como UTF-8, lo que permite el uso correcto de letras acentuadas y caracteres especiales.
-
-<title>
-Define el título que aparecerá en la pestaña del navegador.
-
-<style>
-Contiene reglas CSS. En este caso, se usa para aplicar la fuente Arial al texto. Aunque se pidió sin estilos decorativos, esta sección es necesaria para cambiar la fuente.
-
+  <meta charset="UTF-8">
+  <title>Los 5 Mejores Boxeadores del Mundo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
 <body>
-Contiene todo el contenido visible de la página web.
 
-<h1>
-Encabezado principal del documento. Se utiliza una sola vez por página para representar el título más importante.
+  <h1>Los 5 Mejores Boxeadores del Mundo</h1>
 
-<h2>
-Encabezados secundarios. Se usan para dividir secciones dentro del contenido, en este caso, cada boxeador.
+  <h2>Canelo Álvarez</h2>
+  <p>Campeón indiscutido en múltiples divisiones, conocido por su técnica y poder de golpeo.</p>
 
-<p>
-Define un párrafo de texto. Se usa para describir a cada boxeador y también para el texto del pie de página.
+  <h2>Oleksandr Usyk</h2>
+  <p>Un maestro del boxeo técnico, ha dominado tanto en peso crucero como en peso pesado.</p>
 
-# Proyecto Web Simple
+  <h2>Tyson Fury</h2>
+  <p>El "Rey Gitano", un peso pesado con habilidades impresionantes y una gran personalidad.</p>
 
-## Estilos aplicados
+  <h2>Errol Spence Jr.</h2>
+  <p>Un boxeador invicto con gran poder y resistencia en la categoría de peso welter.</p>
 
-- Se ha añadido un archivo `styles.css` enlazado al HTML.
-- Cambia el fondo del cuerpo (`body`) a gris claro.
-- Títulos centrados y en color oscuro.
+  <h2>Terence Crawford</h2>
+  <p>Un púgil versátil con la capacidad de pelear en múltiples estilos y divisiones.</p>
 
-## Funcionalidades añadidas
+  <button id="cambiarColor">Cambiar color de fondo</button>
 
-- Un script en `script.js` que muestra un mensaje al cargar la página.
-- Un botón que, al hacer clic, cambia el color de fondo de la página.
-# Proyecto Web Simple
+  <p>© 2025 Los Mejores Boxeadores</p>
 
-## Estilos aplicados
-
-- `styles.css` define un fondo gris claro y tipografía básica.
-- Los títulos están centrados y usan un color oscuro.
-- Se ha añadido **responsividad** para pantallas pequeñas (`max-width: 768px`):
-  - Fondo blanco para mejor contraste.
-  - El título se reduce y se alinea a la izquierda.
-  - El botón se expande a ancho completo y mejora su legibilidad.
-
-## Funcionalidades añadidas
-
-- Al cargar la página, se muestra un mensaje emergente.
-- Hay un botón que cambia el color de fondo al hacer clic.
+  <script src="script.js"></script>
+</body>
+</html>
