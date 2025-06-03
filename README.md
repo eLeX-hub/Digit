@@ -1,10 +1,15 @@
 git init                 # Inicializa un repositorio Git
 
 git add .                # Añade todos los archivos al staging area
+
 git commit -m "Mensaje"  # Crea un commit con un mensaje
+
 git branch -M main       # Renombra la rama actual a 'main'
+
 git remote add origin <url>  # Enlaza al repositorio remoto
+
 git push -u origin main  # Sube los cambios a la rama principal del repositorio
+
 
 
 # 🥊 Los 5 Mejores Boxeadores del Mundo
