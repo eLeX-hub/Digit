@@ -1,4 +1,5 @@
 git init                 # Inicializa un repositorio Git
+
 git add .                # Añade todos los archivos al staging area
 git commit -m "Mensaje"  # Crea un commit con un mensaje
 git branch -M main       # Renombra la rama actual a 'main'
