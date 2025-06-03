@@ -42,3 +42,18 @@ Define un párrafo de texto. Se usa para describir a cada boxeador y también pa
 
 - Un script en `script.js` que muestra un mensaje al cargar la página.
 - Un botón que, al hacer clic, cambia el color de fondo de la página.
+# Proyecto Web Simple
+
+## Estilos aplicados
+
+- `styles.css` define un fondo gris claro y tipografía básica.
+- Los títulos están centrados y usan un color oscuro.
+- Se ha añadido **responsividad** para pantallas pequeñas (`max-width: 768px`):
+  - Fondo blanco para mejor contraste.
+  - El título se reduce y se alinea a la izquierda.
+  - El botón se expande a ancho completo y mejora su legibilidad.
+
+## Funcionalidades añadidas
+
+- Al cargar la página, se muestra un mensaje emergente.
+- Hay un botón que cambia el color de fondo al hacer clic.
