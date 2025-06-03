@@ -1,31 +1,57 @@
-git init (Inicializa un nuevo repositorio Git en la carpeta actual.) git add . (Agrega todos los archivos al área de preparación (staging).) git commit \-m "Mensaje"(Crea un commit con los cambios agregados y un mensaje.) git Branch \- M main (Cambia el nombre de la rama actual a "main".) git remote add origin… (Vincula el repositorio local con uno remoto.) git push \-u origin main (Sube los cambios a la rama "main" del repositorio remoto.)
+# 🥊 Los 5 Mejores Boxeadores del Mundo
 
-<!DOCTYPE html>
-Declara que el documento está escrito en HTML5. Es obligatorio al inicio de todo archivo HTML.
+Una página web sencilla desarrollada con HTML y CSS que presenta a cinco de los mejores boxeadores del mundo, acompañados de descripciones claras y un diseño visual limpio.
 
-<html lang="es">
-Etiqueta raíz del documento HTML. El atributo lang="es" indica que el idioma principal del contenido es español.
+---
 
-<head>
-Sección que contiene información del documento que no se muestra directamente en la página (como metadatos y enlaces a estilos o scripts).
+## 📄 Estructura del Proyecto
 
-<meta charset="UTF-8">
-Define la codificación de caracteres como UTF-8, lo que permite el uso correcto de letras acentuadas y caracteres especiales.
+### 📁 Archivos Principales
 
-<title>
-Define el título que aparecerá en la pestaña del navegador.
+- **index.html**: Estructura HTML de la página.
+- **styles.css**: Estilos para el diseño visual (colores, fuentes, centrado...).
+  
+---
 
-<style>
-Contiene reglas CSS. En este caso, se usa para aplicar la fuente Arial al texto. Aunque se pidió sin estilos decorativos, esta sección es necesaria para cambiar la fuente.
+## 💻 Tecnologías Utilizadas
 
-<body>
-Contiene todo el contenido visible de la página web.
+- **HTML5**: Para estructurar el contenido de forma semántica.
+- **CSS3**: Para darle estilo y mejorar la presentación visual.
 
-<h1>
-Encabezado principal del documento. Se utiliza una sola vez por página para representar el título más importante.
+---
 
-<h2>
-Encabezados secundarios. Se usan para dividir secciones dentro del contenido, en este caso, cada boxeador.
+## 🌐 Contenido del Sitio
 
-<p>
-Define un párrafo de texto. Se usa para describir a cada boxeador y también para el texto del pie de página.
+La página presenta los siguientes boxeadores:
+
+- 🥇 **Canelo Álvarez**  
+  Campeón indiscutido con gran técnica y poder.
+
+- 🥈 **Oleksandr Usyk**  
+  Dominante en peso crucero y peso pesado.
+
+- 🥉 **Tyson Fury**  
+  Carismático y habilidoso peso pesado.
+
+- 💪 **Errol Spence Jr.**  
+  Invicto y dominante en peso welter.
+
+- 🎯 **Terence Crawford**  
+  Versátil y experto en múltiples estilos.
+
+---
+
+## 🎨 Estilos Aplicados (`styles.css`)
+
+```css
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
