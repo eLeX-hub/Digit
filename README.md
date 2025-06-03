@@ -1,31 +1,59 @@
-git init (Inicializa un nuevo repositorio Git en la carpeta actual.) git add . (Agrega todos los archivos al área de preparación (staging).) git commit \-m "Mensaje"(Crea un commit con los cambios agregados y un mensaje.) git Branch \- M main (Cambia el nombre de la rama actual a "main".) git remote add origin… (Vincula el repositorio local con uno remoto.) git push \-u origin main (Sube los cambios a la rama "main" del repositorio remoto.)
+# 🥊 Proyecto Web: Los 5 Mejores Boxeadores del Mundo
 
+Este proyecto es una página web sencilla construida con **HTML**, **CSS** y **JavaScript**. Presenta una lista de los 5 mejores boxeadores del mundo y muestra un mensaje al cargar la página.
+
+---
+
+## 📄 Estructura de archivos
+
+- `index.html`: Documento principal en HTML.
+- `styles.css`: Estilos básicos en CSS.
+- `script.js`: Script que muestra una alerta al cargar la página.
+
+---
+
+## 🧱 Explicación del código
+
+### HTML (`index.html`)
+
+```html
 <!DOCTYPE html>
-Declara que el documento está escrito en HTML5. Es obligatorio al inicio de todo archivo HTML.
+<!-- Declara que se usa HTML5 -->
 
 <html lang="es">
-Etiqueta raíz del documento HTML. El atributo lang="es" indica que el idioma principal del contenido es español.
+<!-- Raíz del documento con idioma español -->
 
 <head>
-Sección que contiene información del documento que no se muestra directamente en la página (como metadatos y enlaces a estilos o scripts).
-
-<meta charset="UTF-8">
-Define la codificación de caracteres como UTF-8, lo que permite el uso correcto de letras acentuadas y caracteres especiales.
-
-<title>
-Define el título que aparecerá en la pestaña del navegador.
-
-<style>
-Contiene reglas CSS. En este caso, se usa para aplicar la fuente Arial al texto. Aunque se pidió sin estilos decorativos, esta sección es necesaria para cambiar la fuente.
+  <!-- Contiene metadatos y enlaces -->
+  <meta charset="UTF-8">
+  <!-- Codificación para caracteres especiales -->
+  <title>Los 5 Mejores Boxeadores del Mundo</title>
+  <!-- Título del sitio que aparece en la pestaña -->
+  <link rel="stylesheet" href="styles.css">
+</head>
 
 <body>
-Contiene todo el contenido visible de la página web.
+  <!-- Contenido visible de la página -->
 
-<h1>
-Encabezado principal del documento. Se utiliza una sola vez por página para representar el título más importante.
+  <h1>Los 5 Mejores Boxeadores del Mundo</h1>
 
-<h2>
-Encabezados secundarios. Se usan para dividir secciones dentro del contenido, en este caso, cada boxeador.
+  <h2>Canelo Álvarez</h2>
+  <p>Campeón indiscutido en múltiples divisiones, conocido por su técnica y poder de golpeo.</p>
 
-<p>
-Define un párrafo de texto. Se usa para describir a cada boxeador y también para el texto del pie de página.
+  <h2>Oleksandr Usyk</h2>
+  <p>Un maestro del boxeo técnico, ha dominado tanto en peso crucero como en peso pesado.</p>
+
+  <h2>Tyson Fury</h2>
+  <p>El "Rey Gitano", un peso pesado con habilidades impresionantes y una gran personalidad.</p>
+
+  <h2>Errol Spence Jr.</h2>
+  <p>Un boxeador invicto con gran poder y resistencia en la categoría de peso welter.</p>
+
+  <h2>Terence Crawford</h2>
+  <p>Un púgil versátil con la capacidad de pelear en múltiples estilos y divisiones.</p>
+
+  <p>© 2025 Los Mejores Boxeadores</p>
+
+  <script src="script.js"></script>
+</body>
+</html>
